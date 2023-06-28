@@ -52,7 +52,7 @@ header {
   
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 24px;
 
   border-radius: 80px;
@@ -102,7 +102,7 @@ main {
 }
 
 aside {
-  width: 64px;
+  /* width: 64px; */
   height: 220px;
 
   grid-area: aside;
@@ -112,8 +112,8 @@ aside {
   padding: 12px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
+  justify-content: space-evenly;
+  /* gap: 12px; */
 
   border-radius: 80px;
   background: rgba(255, 255, 255, 0.10);
